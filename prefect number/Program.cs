@@ -3,7 +3,7 @@
 static void Main(string[] args)
 {
         // Declare the variables
-        int n1, n2, i, j,;
+        int n1, n2;
 
         // Ask user to enter n1
         Console.WriteLine("Enter n1: ");
@@ -22,11 +22,11 @@ static void Main(string[] args)
             Console.WriteLine(x );
                 }
 
-    Console.ReadLine();
+       Console.ReadLine();
 }
 
-static bool IsPerfect(int num)
-{
+   static bool IsPerfect(int num)
+  {
     int sum = 0;
     for (int i = 1; i < num; i++)
     {
@@ -35,6 +35,6 @@ static bool IsPerfect(int num)
     }
 
     return sum == num;
-}
+  }
 
  }
