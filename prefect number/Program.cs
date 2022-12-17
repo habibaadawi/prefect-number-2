@@ -14,7 +14,7 @@ static void Main(string[] args)
         n2 = int.Parse(Console.ReadLine());
 
         // Print display message
-        Console.WriteLine($"\nPrime numbers between {n1} and {n2} are: ");
+        Console.WriteLine($"\nPrfect numbers between {n1} and {n2} are: ");
 
         for (int x = n1; x < n2; x++)
                 {
