@@ -2,6 +2,7 @@
 
 static void Main(string[] args)
 {
+        Console.WriteLine("hello this is a new follower");
         // Declare the variables
         int n1, n2;
 
